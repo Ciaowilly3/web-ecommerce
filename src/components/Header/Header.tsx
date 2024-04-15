@@ -4,9 +4,13 @@ import { MainNavBar, Logo } from '@/components';
 const Header = () => {
   return (
     <header className="flex w-full justify-between items-center px-16">
-      <MainNavBar />
-      <Logo height={60} width={120} />
-      <div></div>
+      <div className="basis-1/3">
+        <MainNavBar />
+      </div>
+      <div className="basis-1/3 ">
+        <Logo height={60} width={120} />
+      </div>
+      <div className="basis-1/3"></div>
     </header>
   );
 };
