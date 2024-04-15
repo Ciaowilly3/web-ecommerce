@@ -10,9 +10,9 @@ export default function Home() {
       <div className="flex border-2 rounded bg-secondary justify-center items-center mb-8 h-32  border-orange-300">
         <h3 className="text-xl">categories</h3>
       </div>
-      <div className=" border-2 rounded bg-secondary mb-8 h-32  border-blue-300">
+      <div className=" rounded bg-secondary mb-8">
         <h3 className="text-xl">products</h3>
-        <div className="flex justify-between items-stretch h-full gap-x-3 flex-wrap">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           <ProductsList />
         </div>
       </div>
