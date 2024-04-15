@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="flex justify-between items-center px-16">
       <Logo width={120} height={60} />
-      <MainNavBar />
+      <MainNavBar isVertical={true} />
       <div></div>
     </footer>
   );
