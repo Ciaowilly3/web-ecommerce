@@ -1,26 +1,4 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --color-primary: #7a8194;
-  --color-darker-primary: #161b28;
-  --color-secondary: #e3f0f0;
-  --color-yellow: #e1c26f;
-  --color-red: #cc0000;
-  --color-white: #fbffff;
-}
-
-.bg-primary {
-  background-color: var(--color-primary);
-}
-.bg-darker-primary {
-  background-color: var(--color-darker-primary);
-}
-.bg-secondary {
-  background-color: var(--color-secondary);
-}
-
-.text-darker-primary {
-  color: var(--color-darker-primary);
-}
+  @tailwind components;
+  @tailwind utilities;
+  
