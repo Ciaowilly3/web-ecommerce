@@ -10,8 +10,10 @@ interface ILogoProps {
 
 const Logo = ({ height, width }: ILogoProps) => {
   return (
-    <Link href={'/'}>
-      <CgInfinity style={{ width: `${width}px`, height: `${height}px` }} />
+    <Link href={'/'} className="text-center">
+      <CgInfinity
+        style={{ width: `${width}px`, height: `${height}px`, margin: 'auto' }}
+      />
     </Link>
   );
 };
