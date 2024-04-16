@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card-thumbnail {
+  width: 100%;
+  height: 45%;
+  max-height: 350px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 0.5rem 0.5rem 0 0;
+}

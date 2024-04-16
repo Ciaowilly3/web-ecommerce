@@ -1,3 +1,4 @@
+import './ProductsCard.css';
 import { IProduct } from '@/interfaces/IProducts';
 import React from 'react';
 import {
@@ -19,20 +20,14 @@ interface IProductsCardProps {
 
 const ProductsCard = ({ product }: IProductsCardProps) => {
   return (
-    <Card>
+    <Card className="card">
       <Image
         alt={product.title}
         src={product.thumbnail}
         width={0}
         height={0}
         sizes="100vw"
-        className="rounded"
-        style={{
-          width: '100%',
-          height: '45%',
-          objectFit: 'cover',
-          objectPosition: 'top',
-        }}
+        className="card-thumbnail"
       />
       <CardHeader>
         <CardTitle>{product.title}</CardTitle>
