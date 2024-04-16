@@ -8,7 +8,6 @@ const ProductsList = async () => {
   const { products }: IProductsData = await response.json();
 
   if (products) {
-    console.log('asd', products);
     return (
       <>
         {products.map((product) => (

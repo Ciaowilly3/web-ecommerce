@@ -1,3 +1,4 @@
+import './ProductsCard.css';
 import { IProduct } from '@/interfaces/IProducts';
 import React from 'react';
 import {
@@ -26,13 +27,7 @@ const ProductsCard = ({ product }: IProductsCardProps) => {
         width={0}
         height={0}
         sizes="100vw"
-        className="rounded"
-        style={{
-          width: '100%',
-          height: '45%',
-          objectFit: 'cover',
-          objectPosition: 'top',
-        }}
+        className="rounded card-thumbnail"
       />
       <CardHeader>
         <CardTitle>{product.title}</CardTitle>
