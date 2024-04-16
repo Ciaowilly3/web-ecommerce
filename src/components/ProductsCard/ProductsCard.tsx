@@ -20,14 +20,14 @@ interface IProductsCardProps {
 
 const ProductsCard = ({ product }: IProductsCardProps) => {
   return (
-    <Card>
+    <Card className="card">
       <Image
         alt={product.title}
         src={product.thumbnail}
         width={0}
         height={0}
         sizes="100vw"
-        className="rounded card-thumbnail"
+        className="card-thumbnail"
       />
       <CardHeader>
         <CardTitle>{product.title}</CardTitle>

@@ -9,11 +9,11 @@ const ProductsList = async () => {
 
   if (products) {
     return (
-      <>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 content-end">
         {products.map((product) => (
           <ProductsCard key={product.id} product={product} />
         ))}
-      </>
+      </div>
     );
   } else return <p>empty</p>;
 };

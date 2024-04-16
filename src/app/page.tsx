@@ -12,9 +12,7 @@ export default function Home() {
       </div>
       <div className=" rounded bg-secondary mb-8">
         <h3 className="text-xl">products</h3>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <ProductsList />
-        </div>
+        <ProductsList />
       </div>
     </main>
   );
